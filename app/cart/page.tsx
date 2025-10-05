@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function CartPage() {
   // For now, cart is empty - you'll add cart state management later
-  const cartItems: any[] = [];
+  const cartItems: never[] = [];
 
   if (cartItems.length === 0) {
     return (
